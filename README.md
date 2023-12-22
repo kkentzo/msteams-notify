@@ -1,3 +1,5 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kkentzo/msteams-notify)
+
 # msteams-notify
 
 This programs published a message to an MS Teams webhook (Incoming
