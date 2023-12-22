@@ -1,0 +1,11 @@
+project_name: msteams-notify
+builds:
+  - env: [CGO_ENABLED=0]
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    ldflags:
+      - -s -w -X main.GitCommit={{.Env.GITHUB_SHA}}
