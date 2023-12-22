@@ -33,3 +33,6 @@ The program can be built locally by running:
 ```bash
 $ go build -o msteams-notify
 ```
+
+There are also released versions of the executable that can be found
+[here](https://github.com/kkentzo/msteams-notify/releases).
