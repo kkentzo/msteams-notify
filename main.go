@@ -86,9 +86,9 @@ func main() {
 	)
 
 	flag.StringVar(&uri, "uri", "", "MS Teams Webhook URI (mandatory)")
-	flag.StringVar(&title, "title", "", "The message title")
-	flag.StringVar(&body, "body", "", "The message body")
-	flag.StringVar(&mentionList, "mentions", "", "A comma-separated link of mentions (in the form of emails) to be included in the message")
+	flag.StringVar(&title, "title", "", "The message title (mandatory)")
+	flag.StringVar(&body, "body", "", "The message body (mandatory)")
+	flag.StringVar(&mentionList, "mentions", "", "An optional comma-separated link of mentions (in the form of emails) to be included in the message")
 
 	flag.Parse()
 
